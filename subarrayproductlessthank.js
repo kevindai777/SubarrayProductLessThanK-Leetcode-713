@@ -1,5 +1,9 @@
 //Objective is to find the number of subarrays whose product is less than k
 
+let nums = [10, 5, 2, 6], k = 100
+
+
+//O(n) solution that uses a sliding window approach.
 
 let left = 0
 let right = 0
